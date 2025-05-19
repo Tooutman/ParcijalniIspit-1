@@ -60,7 +60,7 @@ namespace Ispit.Konzola
             }
 
 
-
+            Console.ResetColor();
 
         }
     }
