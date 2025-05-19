@@ -22,6 +22,7 @@ namespace Ispit.Konzola
             Console.WriteLine("Molimo da se kreiraju tri učenika.");
             while (brojac <= 3)
             {
+                Console.WriteLine();
                 Console.WriteLine($"Podaci učenika {brojac}:");
                 Console.WriteLine("Ime:");
                 string ime = Console.ReadLine();
@@ -51,7 +52,8 @@ namespace Ispit.Konzola
             }
 
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Svi podaci unesenih ucenika:");
+            Console.WriteLine("Svi podaci unesenih učenika:");
+            Console.WriteLine();
             
             foreach (var ucenik in listaUcenika)
             {
