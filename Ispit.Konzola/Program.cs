@@ -14,6 +14,7 @@ namespace Ispit.Konzola
             KreirajTriUcenika();
         }
 
+        /// Metoda koja će prikupiti podatke od triju učenika i ispisati ih na ekran.
         private static void KreirajTriUcenika()
         {
             int brojac = 1;
